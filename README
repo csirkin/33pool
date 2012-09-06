@@ -1,0 +1,5 @@
+The allocate.pl script creates player to team allocations for an NFL 33 Pool. Players are randomly matched to a team each week for 17 weeks. It assumes that you'll have 33 players.
+
+To start modify the players.txt file replacing the personXX entries with your players names.
+
+Then run allocate.pl. The output will be 17 sets of allocations listing a player and team, comma delimited list.

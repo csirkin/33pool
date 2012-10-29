@@ -2,4 +2,6 @@ The allocate.pl script creates player to team allocations for an NFL 33 Pool. Pl
 
 To start modify the players.txt file replacing the personXX entries with your players names.
 
-Then run allocate.pl. The output will be 17 sets of allocations listing a player and team, comma delimited list.
+Then run allocate.pl. The output will be 17 sets of allocations listing a player and team comma delimited list.
+
+Currently the program doesn't attempt to pay attention to which teams are on bye or make sure each player gets each team at most once. These should be fixed.
